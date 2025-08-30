@@ -1,8 +1,8 @@
 export default [
-	{
-		files: ['**/*.ts'],
-		rules: {
-			'no-console': 'error',
-		},
-	},
+  {
+    files: ["**/*.ts"],
+    rules: {
+      "no-console": "warn",
+    },
+  },
 ];

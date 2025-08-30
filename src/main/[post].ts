@@ -1,7 +1,7 @@
-import { writeFile } from 'node:fs/promises';
+import { writeFile } from "node:fs/promises";
 
 const values = [1, 2, 3];
 for (const value of values) {
-	await writeFile(`file${value}.txt`, ''); // line for oxlint
-	console.log('Completed'); // line for eslint
+  await writeFile(`file${value}.txt`, ""); // line for oxlint
+  console.log("Completed"); // line for eslint
 }
